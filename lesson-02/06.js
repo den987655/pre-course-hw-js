@@ -9,6 +9,6 @@ let passportWithAddress = {
 
 console.log(passportWithAddress.address.city);
 
-const passportNew = { ...passportWithAddress };
+const passportNew = Object.assign({}, passportWithAddress)
 passportNew.address.city = "Bobryisk";
 console.log(passportNew.address.city);
