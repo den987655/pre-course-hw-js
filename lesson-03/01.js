@@ -9,7 +9,7 @@ function createColorString() {
      if(item === "черный" || item === "красный" || item === "желтый") 
         array.push(item)
     });
-    return array.join();
+    return array.join('-');
 }
 
 console.log(createColorString());
