@@ -2,4 +2,4 @@
 const fruits = ["яблоко", "банан", "апельсин", "манго", "киви", "ананас", "виноград", "груша", "слива", "персик"];
 
 
-fruits.slice()
+console.log(fruits.slice(1, fruits.length-2));
