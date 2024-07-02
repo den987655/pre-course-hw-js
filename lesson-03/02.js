@@ -12,4 +12,4 @@ function createFruitsString() {
        console.log("Придется поискать в другом магазине…");
      }
 }
-console.log(createFruitsString());
+createFruitsString();
