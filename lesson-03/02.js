@@ -7,9 +7,9 @@ function createFruitsString() {
     // return colors ФИЛЬТРУЕМ.ПРЕВРАЩАЕМ В СТРОКУ('-')
      if (result) {
        array.push(result);
-       console.log("Ура! нашел");
+       return "Ура! нашел";
      } else {
-       console.log("Придется поискать в другом магазине…");
+       return "Придется поискать в другом магазине…";
      }
 }
 createFruitsString();
